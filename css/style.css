@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+  width: 100%;
+  height: 70px;
+}
+.logo {
+  padding-top: 15px;
+}
+.social {
+  padding-top: 20px
+}
+.menu {
+  padding-top: 25px
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #585858;
+  border-radius: 20px
+}
+.menu ul li a:hover {
+  background-color: darkblue;
+  color: white
+}
+.vien-dohover.icon {
+  top: 40%
+}
+.sp {
+  padding: 0 20px
+}
+.vien-do:hover img {
+  opacity: 50%
+}
+#product {
+  width: 100%;
+  min-height: 600px;
+  background: url("../images/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom
+}
+.vien-trang {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px
+}
+.vien-trang a {
+  text-decoration: none;
+  color: darkred
+}
+.vien-trang a:hover {
+  color: white
+}
+.pt-30 {
+  padding-top: 30px
+}
+#contract {
+  width: 100%;
+  min-height: 500px;
+  background: url("../images/Shop-Banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.caption {
+  position: absolute;
+  width: 20%;
+  left: 8%;
+  top: 0%;
+}
+.bong{
+	width: 100%;
+	min-height: 400px;
+	background: #ffffff1a;
+	border-top: 1px solid #fffffff80;
+	border-left: 1px solid #ffffff4d;
+	border-right: 1px solid #ffffff4d;
+	border-bottom: 1px solid #ffffff33;
+	border-radius: 12px;
+	box-shadow: 5px 5px 5px gray;
+	padding: 40px;
+}
+.form-control{
+	padding: 8px;
+	margin-bottom: 10px;
+	width: 100%;
+}
